@@ -1,16 +1,17 @@
-nav.navbar.navbar-expand-lg.navbar-light
-  a.navbar-brand(href='/') 1PG
+link(rel='stylesheet', href='/css/navbar.css')
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+  a.navbar-brand(href='/') Licenta
   button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbar', aria-controls='navbar', aria-expanded='false', aria-label='Toggle navigation')
     span.navbar-toggler-icon
   #navbar.collapse.navbar-collapse
     .navbar-nav
       a.nav-link(href='/commands')
         i.fas.fa-code
-        span.pl-1 Commands
+        span.pl-1 Comenzi
     .navbar-nav.ml-auto
       if user
         .dropdown
-          .dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          .dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false', style='background-color=darkslategrey; color=white;')
             img.user-avatar.round(src=user.avatarUrl(32))
             span.pl-2 #{user.username}
           .dropdown-menu.dropdown-menu-right

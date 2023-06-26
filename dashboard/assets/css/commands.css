@@ -1,16 +1,42 @@
+body{
+  background-color: darkslategrey;
+  color:white;
+}
+
+hr{
+  border-top: 1px solid #f8f9fa;
+}
+
+.jumbotron{
+  color:white;
+}
+
 #search {
   max-width: 300px;
+  background-color: darkslategrey;
+  color:white;
 }
 #search + button {
   height: 64px;
+}
+
+.form-control{
+  background-color: darkslategrey;
+  color:white;
 }
 
 li {
   cursor: pointer;
 }
 
+.list-group-item{
+  background-color: darkslategrey;
+}
+
 .commands li {
   margin: 5px 0;
   border-radius: 5px;
   border: 1px solid lightgray !important;
+  background-color: darkslategrey;
+  color:white;
 }

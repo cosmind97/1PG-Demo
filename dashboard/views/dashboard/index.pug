@@ -5,10 +5,11 @@ html(lang='en')
 
     script(src='/js/sidebar.js', defer)
     link(rel='stylesheet', href='/css/sidebar.css')
+    link(rel='stylesheet', href='/css/dashboard.css')
   body
     include ../includes/sidebar.pug
 
-    #sidebarExtension.bg-light
+    #sidebarExtension.bg-dark
       header.text-center.pt-4
         .large-icon.bg-white.round
           img.round(src=user.avatarUrl(128), alt=user.username)
@@ -20,4 +21,4 @@ html(lang='en')
     .container.jumbotron.text-center.bg-transparent
       h1.display-3 Dashboard
       hr
-      p.lead Manage your servers with the 1PG dashboard.
+      p.lead Gestionați-vă serverele cu tabloul de bord.

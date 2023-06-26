@@ -6,10 +6,12 @@ html(lang='en')
     script(src='/js/sidebar.js', defer)
     script(src='/js/guild.js', defer)
     link(rel='stylesheet', href='/css/sidebar.css')
+    link(rel='stylesheet', href='/css/dashboard.css')
+    link(rel='stylesheet', href='/css/modules.css')
   body
     include ../includes/sidebar.pug
 
-    #sidebarExtension.bg-light
+    #sidebarExtension.bg-dark
       header.text-center.pt-4
         .large-icon.bg-white.round
           if guild.icon

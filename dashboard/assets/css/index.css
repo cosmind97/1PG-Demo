@@ -1,3 +1,7 @@
+body{
+  background-color: darkslategrey;
+  color:white;
+}
 .jumbotron {
   margin-top: 25vh;
 }
